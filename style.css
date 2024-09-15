@@ -13,10 +13,10 @@ p {
     padding: 8px;
     font-family: "Fredoka One",sans-serif;
     text-shadow: 
-    -1px -1px 0 black,   /* Top-left shadow */
-    1px -1px 0 black,    /* Top-right shadow */
-    -1px 1px 0 black,    /* Bottom-left shadow */
-    1px 1px 0 black;     /* Bottom-right shadow */
+    -2px -2px 0 black,   /* Top-left shadow */
+    2px -2px 0 black,    /* Top-right shadow */
+    -2px 2px 0 black,    /* Bottom-left shadow */
+    2px 2px 0 black;     /* Bottom-right shadow */
     
 
 }
@@ -26,8 +26,8 @@ ul{
 }
 
 body>header{
-    background-color: orange;
-    color: #99ffaa;
+    background-color: #017374;
+    color: #1F3B4D;
     height: 15vh;
 }
 
@@ -71,12 +71,35 @@ body >main article {
 
 #main-content{
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    padding: 32px;
 }
 
-#main-content>div{
+#main-content>div>p{
     width: 70%;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    
+}
+
+main>div>img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding: 50px;
+}
+#mac{
+    display: flex;
+    align-items: center;
+}
+
+#main-content>p{
+    width: 10%;
+}
+
+#info-section>li{
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
 }
 
 form{
@@ -88,7 +111,7 @@ h2{
 }
 
 body>footer{
-    background-color: orange;
+    background-color: #017374;
     display: flex;
 
 }
